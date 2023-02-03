@@ -221,7 +221,7 @@ footer span{
 }
 @media  only screen and (min-width:650px) {
     body{
-        background-color:#f1eaeb;
+        background-color:hsl(180, 57%, 65%);
     }
     .world {
         display: inline;
@@ -232,11 +232,12 @@ footer span{
 .group{
     display: grid;
     grid-template-columns: repeat(2,2fr);
+    margin-top: 30px;
 }
     
 }
-@media only screen and (min-width: 992px) {
-    body {background: #9dcece;}
+@media only screen and (min-width: 980px) {
+    body {background: #96dfdf;}
     .world{
         display: flex; }
         .belal{display: flex;}
