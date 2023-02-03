@@ -17,7 +17,6 @@ body{
 }
 .world .cup{
     width: 45%;
-    height: 500pxpx;
     margin-left: 60px;
     margin-top: 40px;
 
@@ -58,9 +57,9 @@ body{
 }
 .messi img{
     width: 80%;
-    height: auto;
+    height: 495px;
 }
-main section{
+.belal{
     display: flex;
     width: 86%;
     margin-top: 80px;
@@ -203,20 +202,51 @@ footer span{
     align-items: center;
 
 }
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: #d1e5eb;
+@media only screen and (max-width: 650px) {
+   
+   body{
+    background-color:#cbacb1 ;
+   }
+    .world {
+        display: inline;
+        background-color: #0808081a;
     }
+  .belal{
+        display: inline;
+    }
+.group{
+    display: inline;
 }
-@media  only screen and (min-width:700px) {
+
+}
+@media  only screen and (min-width:650px) {
     body{
-        background-color:#e3bfc5;
+        background-color:#f1eaeb;
     }
+    .world {
+        display: inline;
+    }
+  .belal{
+        display: inline;
+    }
+.group{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+}
     
 }
 @media only screen and (min-width: 992px) {
-    body {background: #eff3f3;}
+    body {background: #9dcece;}
+    .world{
+        display: flex; }
+        .belal{display: flex;}
+        .group{
+            display: grid;
+            grid-template-columns:repeat(3,1fr);
+        }
+    
   } 
 @media only screen and (min-width: 1200px) {
-    body {background:white;}
+    body {background:white;
   }
+}
