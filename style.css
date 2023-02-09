@@ -209,7 +209,7 @@ footer span{
    }
     .world {
         display: inline;
-        background-color: #0808081a;
+        
     }
   .belal{
         display: inline;
@@ -221,18 +221,20 @@ footer span{
 }
 @media  only screen and (min-width:650px) {
     body{
-        background-color:hsl(180, 57%, 65%);
+        background-color:hsl(180, 45%, 59%);
     }
     .world {
         display: inline;
     }
   .belal{
-        display: inline;
+        display: inline; 
+       
     }
 .group{
     display: grid;
     grid-template-columns: repeat(2,2fr);
     margin-top: 30px;
+    
 }
     
 }
